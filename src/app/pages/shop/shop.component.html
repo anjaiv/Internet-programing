@@ -1,0 +1,168 @@
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <h1>Find a routine that matches your skin type</h1>
+        <p>Select your skin type, get a morning + evening routine, and track your notes.</p>
+        <div class="hero__cta">
+          <a class="btn" routerLink="/routine-builder">Build my routine</a>
+          <a class="btn btn--ghost" href="#products">Browse products</a>
+        </div>
+
+        <ul class="hero__badges" aria-label="Highlights">
+          <li>Expert formulas</li>
+          <li>Free delivery</li>
+          <li>Skin type matching</li>
+          <li>Routine tracking</li>
+        </ul>
+      </div>
+
+      <div class="hero__media" aria-hidden="true">
+        <div class="placeholder placeholder--banner">Banner Image</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT LIST (with filters) -->
+  <section class="section" id="products">
+    <div class="container">
+      <div class="section__head">
+        <h2>Products</h2>
+        <p class="muted">Filter and discover your perfect skincare</p>
+      </div>
+
+      <div class="layout layout--products">
+        <!-- sidebar filters -->
+        <aside class="filters" aria-label="Filters">
+          <h3>Filters</h3>
+
+          <div class="filter">
+            <h4>Category</h4>
+            @for (category of categories; track category) {
+              <label>
+                <input
+                  type="checkbox"
+                  [checked]="selectedCategories.includes(category)"
+                  (change)="onCategoryChange(category, $event)"
+                />
+                {{ category }}
+              </label><br />
+            }
+          </div>
+
+          <div class="filter">
+            <h4>Brand</h4>
+            @for (brand of brands; track brand) {
+              <label>
+                <input
+                  type="checkbox"
+                  [checked]="selectedBrands.includes(brand)"
+                  (change)="onBrandChange(brand, $event)"
+                />
+                {{ brand }}
+              </label><br />
+            }
+          </div>
+
+          <div class="filter">
+            <h4>Skin Type</h4>
+            @for (skinType of skinTypes; track skinType) {
+              <label>
+                <input
+                  type="checkbox"
+                  [checked]="selectedSkinTypes.includes(skinType)"
+                  (change)="onSkinTypeChange(skinType, $event)"
+                />
+                {{ skinType }}
+              </label><br />
+            }
+          </div>
+
+          <div class="filter">
+            <h4>Price Range (den)</h4>
+            <label>
+              Min
+              <input type="number" [(ngModel)]="minPrice" placeholder="0" />
+            </label><br />
+            <label>
+              Max
+              <input type="number" [(ngModel)]="maxPrice" placeholder="5000" />
+            </label>
+          </div>
+
+          <div class="filter">
+            <h4>Sort By</h4>
+            <select [(ngModel)]="sortBy">
+              <option value="recommended">Recommended</option>
+              <option value="price-low">Price: Low to High</option>
+              <option value="price-high">Price: High to Low</option>
+              <option value="newest">Newest</option>
+              <option value="name">Name (A-Z)</option>
+            </select>
+          </div>
+
+          <button class="btn" type="button" (click)="applyFilters()">Apply Filters</button>
+          <button class="btn btn--ghost" type="button" (click)="clearFilters()">Clear All</button>
+        </aside>
+
+        <!-- product grid -->
+        <div class="product-area">
+          <div class="product-toolbar">
+            <span class="muted">
+              Showing {{ (currentPage - 1) * productsPerPage + 1 }}-{{ Math.min(currentPage * productsPerPage, filteredProducts.length) }}
+              of {{ filteredProducts.length }} products
+            </span>
+            <a routerLink="/offers">See offers</a>
+          </div>
+
+          @if (filteredProducts.length === 0) {
+            <p class="muted">No products found matching your criteria.</p>
+          } @else {
+            <div class="grid grid--products">
+              @for (product of getPaginatedProducts(); track product.id) {
+                <app-product-card
+                  [product]="product"
+                  [discount]="getProductDiscount(product)"
+                  (addToCart)="onAddToCart(product)"
+                  (addToWishlist)="onAddToWishlist(product)"
+                />
+              }
+            </div>
+
+            <!-- Pagination -->
+            @if (totalPages > 1) {
+              <nav class="pagination" aria-label="Pagination">
+                <button
+                  type="button"
+                  [disabled]="currentPage === 1"
+                  (click)="changePage(currentPage - 1)"
+                >
+                  Prev
+                </button>
+
+                @for (page of pageNumbers; track page) {
+                  <button
+                    type="button"
+                    [attr.aria-current]="page === currentPage ? 'page' : null"
+                    (click)="changePage(page)"
+                  >
+                    {{ page }}
+                  </button>
+                }
+
+                <button
+                  type="button"
+                  [disabled]="currentPage === totalPages"
+                  (click)="changePage(currentPage + 1)"
+                >
+                  Next
+                </button>
+              </nav>
+            }
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

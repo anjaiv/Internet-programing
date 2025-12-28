@@ -1,0 +1,104 @@
+<main>
+  <section class="section">
+    <div class="container" style="max-width: 800px;">
+      <h1>Routine Builder</h1>
+      <p class="muted" style="text-align: center; margin-bottom: 40px;">
+        Get a personalized morning and evening skincare routine
+      </p>
+
+      <!-- Form -->
+      <div class="card" style="margin-bottom: 32px;">
+        <form (submit)="generateRoutine(); $event.preventDefault()">
+          <div style="margin-bottom: 20px;">
+            <label><strong>Skin Type</strong></label><br />
+            <select [(ngModel)]="skinType" name="skinType" required style="width: 100%; margin-top: 8px;">
+              <option value="">Select your skin type</option>
+              <option value="Oily">Oily</option>
+              <option value="Dry">Dry</option>
+              <option value="Combination">Combination</option>
+              <option value="Sensitive">Sensitive</option>
+            </select>
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <label><strong>Main Goal</strong></label><br />
+            <select [(ngModel)]="goal" name="goal" required style="width: 100%; margin-top: 8px;">
+              <option value="">Select your goal</option>
+              <option value="hydration">Hydration</option>
+              <option value="acne">Acne / Breakouts</option>
+              <option value="anti-aging">Anti-Aging</option>
+              <option value="brightening">Brightening</option>
+              <option value="texture">Texture / Smoothing</option>
+            </select>
+          </div>
+
+          <div style="margin-bottom: 20px;">
+            <label><strong>Budget</strong></label><br />
+            <select [(ngModel)]="budget" name="budget" required style="width: 100%; margin-top: 8px;">
+              <option value="">Select budget range</option>
+              <option value="budget">Budget Friendly</option>
+              <option value="mid">Mid-Range</option>
+              <option value="premium">Premium</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn" style="width: 100%;">
+            Generate Routine
+          </button>
+        </form>
+      </div>
+
+      <!-- Results -->
+      @if (showResults) {
+        <div class="card">
+          <div class="tabs">
+            <button
+              [class.active]="activeTab === 'morning'"
+              (click)="activeTab = 'morning'"
+              class="tab-button"
+            >
+              Morning Routine
+            </button>
+            <button
+              [class.active]="activeTab === 'evening'"
+              (click)="activeTab = 'evening'"
+              class="tab-button"
+            >
+              Evening Routine
+            </button>
+          </div>
+
+          <div class="tab-content">
+            @if (activeTab === 'morning') {
+              <div class="routine-steps">
+                @for (step of morningRoutine; track step.step) {
+                  <div class="routine-step">
+                    <div class="step-number">{{ step.step }}</div>
+                    <div>
+                      <h4>{{ step.product }}</h4>
+                      <p class="muted">{{ step.description }}</p>
+                    </div>
+                  </div>
+                }
+              </div>
+            }
+
+            @if (activeTab === 'evening') {
+              <div class="routine-steps">
+                @for (step of eveningRoutine; track step.step) {
+                  <div class="routine-step">
+                    <div class="step-number">{{ step.step }}</div>
+                    <div>
+                      <h4>{{ step.product }}</h4>
+                      <p class="muted">{{ step.description }}</p>
+                    </div>
+                  </div>
+                }
+              </div>
+            }
+          </div>
+        </div>
+      }
+    </div>
+  </section>
+</main>
