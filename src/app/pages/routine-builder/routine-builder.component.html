@@ -1,70 +1,96 @@
 <main>
   <section class="section">
     <div class="container" style="max-width: 800px;">
-      <h1>Routine Builder</h1>
-      <p class="muted" style="text-align: center; margin-bottom: 40px;">
-        Get a personalized morning and evening skincare routine
-      </p>
+      <!-- Hero Banner -->
+      <div style="text-align: center; margin-bottom: 48px;">
+        <div style="display: inline-block; background: linear-gradient(135deg, #ffc6dd 0%, #ff69b4 100%); padding: 12px 24px; border-radius: 50px; margin-bottom: 16px;">
+          <span style="font-size: 32px;">✨</span>
+        </div>
+        <h1 style="margin-bottom: 12px; background: linear-gradient(135deg, #ff1493, #ff69b4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Routine Builder</h1>
+        <p class="muted" style="font-size: 18px; max-width: 600px; margin: 0 auto;">
+          Answer 3 quick questions and get your personalized morning & evening skincare routine
+        </p>
+      </div>
 
       <!-- Form -->
-      <div class="card" style="margin-bottom: 32px;">
+      <div class="card" style="margin-bottom: 32px; background: linear-gradient(to bottom, #fff, #fff5f8); border: 2px solid #ffc6dd;">
         <form (submit)="generateRoutine(); $event.preventDefault()">
-          <div style="margin-bottom: 20px;">
-            <label><strong>Skin Type</strong></label><br />
-            <select [(ngModel)]="skinType" name="skinType" required style="width: 100%; margin-top: 8px;">
+          <div style="margin-bottom: 24px;">
+            <label style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+              <span style="font-size: 20px;">💧</span>
+              <strong style="font-size: 16px;">Skin Type</strong>
+            </label>
+            <select [(ngModel)]="skinType" name="skinType" required
+                    style="width: 100%; padding: 12px 16px; border: 2px solid #ffc6dd; border-radius: 12px; font-size: 16px; background: white; cursor: pointer; transition: all 0.2s;">
               <option value="">Select your skin type</option>
-              <option value="Oily">Oily</option>
-              <option value="Dry">Dry</option>
-              <option value="Combination">Combination</option>
-              <option value="Sensitive">Sensitive</option>
+              <option value="Oily">🌟 Oily - Shiny & prone to breakouts</option>
+              <option value="Dry">🏜️ Dry - Tight & flaky</option>
+              <option value="Combination">🌓 Combination - Oily T-zone, dry cheeks</option>
+              <option value="Sensitive">🌸 Sensitive - Easily irritated</option>
             </select>
           </div>
 
-          <div style="margin-bottom: 20px;">
-            <label><strong>Main Goal</strong></label><br />
-            <select [(ngModel)]="goal" name="goal" required style="width: 100%; margin-top: 8px;">
+          <div style="margin-bottom: 24px;">
+            <label style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+              <span style="font-size: 20px;">🎯</span>
+              <strong style="font-size: 16px;">Main Goal</strong>
+            </label>
+            <select [(ngModel)]="goal" name="goal" required
+                    style="width: 100%; padding: 12px 16px; border: 2px solid #ffc6dd; border-radius: 12px; font-size: 16px; background: white; cursor: pointer; transition: all 0.2s;">
               <option value="">Select your goal</option>
-              <option value="hydration">Hydration</option>
-              <option value="acne">Acne / Breakouts</option>
-              <option value="anti-aging">Anti-Aging</option>
-              <option value="brightening">Brightening</option>
-              <option value="texture">Texture / Smoothing</option>
+              <option value="hydration">💦 Hydration - Plump & moisturized skin</option>
+              <option value="acne">🔴 Acne / Breakouts - Clear skin</option>
+              <option value="anti-aging">⏰ Anti-Aging - Youthful appearance</option>
+              <option value="brightening">✨ Brightening - Even skin tone</option>
+              <option value="texture">🎨 Texture / Smoothing - Refined pores</option>
             </select>
           </div>
 
-          <div style="margin-bottom: 20px;">
-            <label><strong>Budget</strong></label><br />
-            <select [(ngModel)]="budget" name="budget" required style="width: 100%; margin-top: 8px;">
+          <div style="margin-bottom: 24px;">
+            <label style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px;">
+              <span style="font-size: 20px;">💰</span>
+              <strong style="font-size: 16px;">Budget</strong>
+            </label>
+            <select [(ngModel)]="budget" name="budget" required
+                    style="width: 100%; padding: 12px 16px; border: 2px solid #ffc6dd; border-radius: 12px; font-size: 16px; background: white; cursor: pointer; transition: all 0.2s;">
               <option value="">Select budget range</option>
-              <option value="budget">Budget Friendly</option>
-              <option value="mid">Mid-Range</option>
-              <option value="premium">Premium</option>
+              <option value="budget">💵 Budget Friendly - Under 3000 den</option>
+              <option value="mid">💳 Mid-Range - 3000-6000 den</option>
+              <option value="premium">💎 Premium - 6000+ den</option>
             </select>
           </div>
 
-          <button type="submit" class="btn" style="width: 100%;">
-            Generate Routine
+          <button type="submit" class="btn"
+                  style="width: 100%; padding: 16px; font-size: 18px; font-weight: 600; background: linear-gradient(135deg, #ff1493, #ff69b4); border: none; border-radius: 12px; cursor: pointer; transition: transform 0.2s;">
+            ✨ Generate My Routine
           </button>
         </form>
       </div>
 
       <!-- Results -->
       @if (showResults) {
-        <div class="card">
+        <div class="card" style="background: white; border: 2px solid #ffc6dd; box-shadow: 0 10px 40px rgba(255, 105, 180, 0.1);">
+          <div style="text-align: center; padding: 24px 0; border-bottom: 2px solid #ffc6dd;">
+            <h2 style="margin: 0; color: #ff1493;">🌟 Your Personalized Routine</h2>
+            <p class="muted" style="margin: 8px 0 0 0;">Follow these steps for {{ skinType }} skin with {{ goal }} goals</p>
+          </div>
+
           <div class="tabs">
             <button
               [class.active]="activeTab === 'morning'"
               (click)="activeTab = 'morning'"
               class="tab-button"
+              style="font-size: 16px;"
             >
-              Morning Routine
+              ☀️ Morning Routine
             </button>
             <button
               [class.active]="activeTab === 'evening'"
               (click)="activeTab = 'evening'"
               class="tab-button"
+              style="font-size: 16px;"
             >
-              Evening Routine
+              🌙 Evening Routine
             </button>
           </div>
 
@@ -72,11 +98,11 @@
             @if (activeTab === 'morning') {
               <div class="routine-steps">
                 @for (step of morningRoutine; track step.step) {
-                  <div class="routine-step">
-                    <div class="step-number">{{ step.step }}</div>
+                  <div class="routine-step" style="background: linear-gradient(135deg, #fff5f8, #ffffff); border-left: 4px solid #ff69b4; transition: transform 0.2s;">
+                    <div class="step-number" style="background: linear-gradient(135deg, #ff1493, #ff69b4); box-shadow: 0 4px 12px rgba(255, 20, 147, 0.3);">{{ step.step }}</div>
                     <div>
-                      <h4>{{ step.product }}</h4>
-                      <p class="muted">{{ step.description }}</p>
+                      <h4 style="color: #ff1493; margin-bottom: 4px; font-size: 18px;">{{ step.product }}</h4>
+                      <p class="muted" style="margin: 0; font-size: 15px;">{{ step.description }}</p>
                     </div>
                   </div>
                 }
@@ -86,16 +112,22 @@
             @if (activeTab === 'evening') {
               <div class="routine-steps">
                 @for (step of eveningRoutine; track step.step) {
-                  <div class="routine-step">
-                    <div class="step-number">{{ step.step }}</div>
+                  <div class="routine-step" style="background: linear-gradient(135deg, #f0f0ff, #ffffff); border-left: 4px solid #9370db; transition: transform 0.2s;">
+                    <div class="step-number" style="background: linear-gradient(135deg, #6a5acd, #9370db); box-shadow: 0 4px 12px rgba(106, 90, 205, 0.3);">{{ step.step }}</div>
                     <div>
-                      <h4>{{ step.product }}</h4>
-                      <p class="muted">{{ step.description }}</p>
+                      <h4 style="color: #6a5acd; margin-bottom: 4px; font-size: 18px;">{{ step.product }}</h4>
+                      <p class="muted" style="margin: 0; font-size: 15px;">{{ step.description }}</p>
                     </div>
                   </div>
                 }
               </div>
             }
+          </div>
+
+          <div style="text-align: center; padding: 24px; background: #fff5f8; border-radius: 0 0 12px 12px; margin-top: 16px;">
+            <p style="margin: 0; font-size: 14px; color: #666;">
+              💡 <strong>Tip:</strong> Wait 1-2 minutes between each step for better absorption
+            </p>
           </div>
         </div>
       }

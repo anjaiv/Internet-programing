@@ -28,7 +28,7 @@ export interface ProductDiscount {
           {{ product.badge }}
         </p>
         <p *ngIf="discount?.hasDiscount" class="badge badge--deal">
-          -{{ discount.discount }}%
+          -{{ discount!.discount }}%
         </p>
 
         <h3 class="product__title">{{ product.name }}</h3>
@@ -41,10 +41,10 @@ export interface ProductDiscount {
           <div *ngIf="discount?.hasDiscount; else normalPrice"
                style="display: flex; flex-direction: column; gap: 4px;">
             <span class="price" style="color: #ff1493; font-weight: bold;">
-              {{ discount.discountedPrice }} den
+              {{ discount!.discountedPrice }} den
             </span>
             <span style="text-decoration: line-through; color: #999; font-size: 14px;">
-              {{ discount.originalPrice }} den
+              {{ discount!.originalPrice }} den
             </span>
           </div>
           <ng-template #normalPrice>

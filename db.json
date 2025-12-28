@@ -1,0 +1,1040 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Hyaluronic Acid Serum",
+      "brand": "The Ordinary",
+      "category": "Serums",
+      "price": 890,
+      "originalPrice": 890,
+      "image": "https://www.adorebeauty.com.au/pim_media/000/558/165/PNG_1_O._Hyaluronic_Acid_thirty.png?w=388&h=388&fmt=webp",
+      "skinTypes": [
+        "All",
+        "Dry",
+        "Combination"
+      ],
+      "description": "Hydration support formula with hyaluronic acid and vitamin B5. Multi-molecular HA for deep hydration.",
+      "rating": 5,
+      "badge": "Best Seller",
+      "inStock": true,
+      "goal": "hydration"
+    },
+    {
+      "id": 2,
+      "name": "Niacinamide 10% + Zinc 1%",
+      "brand": "The Ordinary",
+      "category": "Serums",
+      "price": 950,
+      "originalPrice": 950,
+      "image": "https://www.adorebeauty.com.au/pim_media/000/558/053/PNG_1_O._Niacinamide_Zinc_sixty.png?w=386&h=386&fmt=webp",
+      "skinTypes": [
+        "Oily",
+        "Combination",
+        "Acne-prone"
+      ],
+      "description": "Reduces blemishes and congestion, balances oil production and minimizes pores.",
+      "rating": 5,
+      "badge": "Best Seller",
+      "inStock": true,
+      "goal": "acne"
+    },
+    {
+      "id": 3,
+      "name": "Salicylic Acid 2% Solution",
+      "brand": "The Ordinary",
+      "category": "Actives",
+      "price": 850,
+      "originalPrice": 850,
+      "image": "https://www.lookfantastic.com/images?url=https://static.thcdn.com/productimg/original/13457346-5455284125322476.jpg&format=webp&auto=avif&width=1200&height=1200&fit=cover",
+      "skinTypes": [
+        "Oily",
+        "Combination",
+        "Acne-prone"
+      ],
+      "description": "BHA exfoliating solution for acne, blackheads and texture. Unclogs pores deeply.",
+      "rating": 4,
+      "badge": "",
+      "inStock": true,
+      "goal": "acne"
+    },
+    {
+      "id": 4,
+      "name": "Natural Moisturizing Factors + HA",
+      "brand": "The Ordinary",
+      "category": "Creams",
+      "price": 1290,
+      "originalPrice": 1290,
+      "image": "https://www.cultbeauty.com/images?url=https://static.thcdn.com/productimg/original/11638505-1535232038419212.jpg&format=webp&auto=avif&width=985&height=985&fit=cover",
+      "skinTypes": [
+        "All",
+        "Dry",
+        "Sensitive"
+      ],
+      "description": "Surface hydration cream with amino acids, hyaluronic acid and barrier support.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "hydration"
+    },
+    {
+      "id": 5,
+      "name": "Squalane Cleanser",
+      "brand": "The Ordinary",
+      "category": "Cleansers",
+      "price": 1490,
+      "originalPrice": 1490,
+      "image": "https://www.sephora.com/productimages/sku/s2238988-main-zoom.jpg?imwidth=612",
+      "skinTypes": [
+        "All",
+        "Dry",
+        "Sensitive"
+      ],
+      "description": "Gentle cleansing balm that removes makeup and impurities without stripping.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "cleanse"
+    },
+    {
+      "id": 6,
+      "name": "Vitamin C Suspension 23% + HA Spheres 2%",
+      "brand": "The Ordinary",
+      "category": "Serums",
+      "price": 1150,
+      "originalPrice": 1150,
+      "image": "https://images.selfridges.com/is/image/selfridges/475-3003725-769915190700_M?wid=476&hei=634&fmt=webp&qlt=80,1&bgc=F6F6F6&extend=-18,0,-18,0",
+      "skinTypes": [
+        "All"
+      ],
+      "description": "High-strength vitamin C formula for brightening and antioxidant protection.",
+      "rating": 4,
+      "badge": "New",
+      "inStock": true,
+      "goal": "brightening"
+    },
+    {
+      "id": 7,
+      "name": "Retinol 0.5% in Squalane",
+      "brand": "The Ordinary",
+      "category": "Actives",
+      "price": 1550,
+      "originalPrice": 1550,
+      "image": "https://www.cultbeauty.com/images?url=https://static.thcdn.com/productimg/original/11638502-5775284123696662.jpg&format=webp&auto=avif&width=985&height=985&fit=cover",
+      "skinTypes": [
+        "All"
+      ],
+      "description": "Moderate-strength retinol for fine lines, texture and anti-aging.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "antiaging"
+    },
+    {
+      "id": 8,
+      "name": "AHA 30% + BHA 2% Peeling Solution",
+      "brand": "The Ordinary",
+      "category": "Masks",
+      "price": 1390,
+      "originalPrice": 1390,
+      "image": "https://shineskin.mk/wp-content/uploads/2021/10/rdn-aha-30pct-bha-2pct-peeling-solution-30ml.webp",
+      "skinTypes": [
+        "Oily",
+        "Combination"
+      ],
+      "description": "10-minute exfoliating facial peel for brighter, smoother, clearer skin. Use weekly.",
+      "rating": 5,
+      "badge": "Best Seller",
+      "inStock": true,
+      "goal": "brightening"
+    },
+    {
+      "id": 9,
+      "name": "Caffeine Solution 5% + EGCG",
+      "brand": "The Ordinary",
+      "category": "Serums",
+      "price": 790,
+      "originalPrice": 790,
+      "image": "https://static.thcdn.com/productimg/original/11919042-1214924702276857.jpg",
+      "skinTypes": [
+        "All"
+      ],
+      "description": "Eye serum that reduces puffiness, dark circles and under-eye bags.",
+      "rating": 4,
+      "badge": "",
+      "inStock": true,
+      "goal": "brightening"
+    },
+    {
+      "id": 10,
+      "name": "Mineral UV Filters SPF 30",
+      "brand": "The Ordinary",
+      "category": "SPF",
+      "price": 1690,
+      "originalPrice": 1690,
+      "image": "https://vitaminshouse.com/cdn/shop/files/The_Ordinary_Mineral_Uv_Filters_Spf_30_With_Antioxidants_50Ml_-_Vitamins_House-569484.jpg?v=1717496567",
+      "skinTypes": [
+        "All",
+        "Sensitive"
+      ],
+      "description": "Broad spectrum mineral sunscreen with SPF 30. Reef-safe, no white cast.",
+      "rating": 4,
+      "badge": "",
+      "inStock": true,
+      "goal": "protection"
+    },
+    {
+      "id": 11,
+      "name": "Glycolic Acid 7% Toning Solution",
+      "brand": "The Ordinary",
+      "category": "Actives",
+      "price": 1290,
+      "originalPrice": 1290,
+      "image": "https://shineskin.mk/wp-content/uploads/2024/06/rdn-glycolic-acid-7pct-toning-solution-240ml.webp",
+      "skinTypes": [
+        "Oily",
+        "Combination"
+      ],
+      "description": "AHA exfoliating toner for improved texture, radiance and even tone.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "brightening"
+    },
+    {
+      "id": 12,
+      "name": "100% Organic Rose Hip Seed Oil",
+      "brand": "The Ordinary",
+      "category": "Oils",
+      "price": 1750,
+      "originalPrice": 1750,
+      "image": "https://images.squarespace-cdn.com/content/v1/54d4717de4b0950984a1ad2f/1606749733852-49SNR8MNW1W7V2IE5YIE/image-asset.jpeg?format=2500w",
+      "skinTypes": [
+        "Dry",
+        "Mature"
+      ],
+      "description": "Cold-pressed facial oil rich in linoleic acid for hydration and anti-aging.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "antiaging"
+    },
+    {
+      "id": 13,
+      "name": "Matrixyl 10% + HA",
+      "brand": "The Ordinary",
+      "category": "Serums",
+      "price": 1450,
+      "originalPrice": 1450,
+      "image": "https://i0.wp.com/luviabeauty.co.ke/wp-content/uploads/2021/07/27fcc19072b9ff4235fd4f4fe526ee5b34fb7d51.jpg?fit=500%2C500&ssl=1",
+      "skinTypes": [
+        "All",
+        "Mature"
+      ],
+      "description": "Peptide serum that targets multiple signs of aging and improves elasticity.",
+      "rating": 4,
+      "badge": "",
+      "inStock": true,
+      "goal": "antiaging"
+    },
+    {
+      "id": 14,
+      "name": "Lactic Acid 10% + HA",
+      "brand": "The Ordinary",
+      "category": "Actives",
+      "price": 990,
+      "originalPrice": 990,
+      "image": "https://shineskin.mk/wp-content/uploads/2024/06/rdn-lactic-acid-10pct-ha-30ml.webp",
+      "skinTypes": [
+        "Dry",
+        "Sensitive"
+      ],
+      "description": "Gentle AHA exfoliating serum for radiance and improved skin tone.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "brightening"
+    },
+    {
+      "id": 15,
+      "name": "Buffet + Copper Peptides 1%",
+      "brand": "The Ordinary",
+      "category": "Serums",
+      "price": 4990,
+      "originalPrice": 4990,
+      "image": "https://cdn11.bigcommerce.com/s-63354/images/stencil/1280x1280/products/7504/20089/The_Ordinary_Multi-Peptide_Copper_Peptides_1_30ml__07361.1711374922.jpg?c=2&imbypass=on",
+      "skinTypes": [
+        "All",
+        "Mature"
+      ],
+      "description": "Multi-peptide serum with copper peptides for comprehensive anti-aging.",
+      "rating": 5,
+      "badge": "Premium",
+      "inStock": true,
+      "goal": "antiaging"
+    },
+    {
+      "id": 16,
+      "name": "Azelaic Acid Suspension 10%",
+      "brand": "The Ordinary",
+      "category": "Actives",
+      "price": 1490,
+      "originalPrice": 1490,
+      "image": "https://m.media-amazon.com/images/I/51LloWpF62L._SL1500_.jpg",
+      "skinTypes": [
+        "Oily",
+        "Acne-prone"
+      ],
+      "description": "Brightens skin tone, evens texture and reduces blemishes and redness.",
+      "rating": 4,
+      "badge": "",
+      "inStock": true,
+      "goal": "brightening"
+    },
+    {
+      "id": 17,
+      "name": "Marine Hyaluronics",
+      "brand": "The Ordinary",
+      "category": "Serums",
+      "price": 1290,
+      "originalPrice": 1290,
+      "image": "https://www.adorebeauty.co.nz/pim_media/000/558/718/1_O._Marine_Hyaluronics.png?w=386&h=386&fmt=webp",
+      "skinTypes": [
+        "All",
+        "Dehydrated"
+      ],
+      "description": "Lightweight hydration serum with marine-derived hyaluronic acid.",
+      "rating": 4,
+      "badge": "",
+      "inStock": true,
+      "goal": "hydration"
+    },
+    {
+      "id": 18,
+      "name": "Granactive Retinoid 2% Emulsion",
+      "brand": "The Ordinary",
+      "category": "Actives",
+      "price": 1890,
+      "originalPrice": 1890,
+      "image": "https://lookfantastic.com.au/cdn/shop/files/11363393-1.jpg?v=1738253155",
+      "skinTypes": [
+        "All"
+      ],
+      "description": "Next-generation retinoid for anti-aging with less irritation than retinol.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "antiaging"
+    },
+    {
+      "id": 19,
+      "name": "Alpha Arbutin 2% + HA",
+      "brand": "The Ordinary",
+      "category": "Serums",
+      "price": 1690,
+      "originalPrice": 1690,
+      "image": "https://lookfantastic.com.au/cdn/shop/files/11363393-1.jpg?v=1738253155",
+      "skinTypes": [
+        "All"
+      ],
+      "description": "Brightening serum that targets hyperpigmentation and dark spots.",
+      "rating": 4,
+      "badge": "",
+      "inStock": true,
+      "goal": "brightening"
+    },
+    {
+      "id": 20,
+      "name": "Argireline Solution 10%",
+      "brand": "The Ordinary",
+      "category": "Serums",
+      "price": 1290,
+      "originalPrice": 1290,
+      "image": "https://shineskin.mk/wp-content/uploads/2024/06/rdn-argireline-solution-10pct-30ml-800x800.webp",
+      "skinTypes": [
+        "All",
+        "Mature"
+      ],
+      "description": "Peptide formula that targets expression lines and forehead wrinkles.",
+      "rating": 4,
+      "badge": "",
+      "inStock": true,
+      "goal": "antiaging"
+    },
+    {
+      "id": 21,
+      "name": "Glucoside Foaming Cleanser",
+      "brand": "The Ordinary",
+      "category": "Cleansers",
+      "price": 990,
+      "originalPrice": 990,
+      "image": "https://www.sephora.com/productimages/sku/s2644151-main-zoom.jpg?imwidth=1224",
+      "skinTypes": [
+        "All",
+        "Oily"
+      ],
+      "description": "Gentle foaming cleanser that removes impurities without drying skin.",
+      "rating": 4,
+      "badge": "",
+      "inStock": true,
+      "goal": "cleanse"
+    },
+    {
+      "id": 22,
+      "name": "Hyaluronic Acid 2% + B5 Hydration Support",
+      "brand": "CeraVe",
+      "category": "Creams",
+      "price": 1590,
+      "originalPrice": 1590,
+      "image": "https://www.cerave.co.uk/-/media/project/loreal/brand-sites/cerave/emea/uk/products/ha-serum/ha-serum-front-lg.jpg?rev=-1?w=500&hash=0735B4BC1C080328DC5EE2473E9B8EF7",
+      "skinTypes": [
+        "All",
+        "Dry"
+      ],
+      "description": "Rich moisturizer with ceramides and hyaluronic acid for 24-hour hydration.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "hydration"
+    },
+    {
+      "id": 23,
+      "name": "Hydrating Cleanser",
+      "brand": "CeraVe",
+      "category": "Cleansers",
+      "price": 1290,
+      "originalPrice": 1290,
+      "image": "https://www.cerave.co.uk/-/media/project/loreal/brand-sites/cerave/emea/uk/products/hydrating-cleanser-latest/hydrating-cleanser-1l-1-lg.jpg?rev=99ea0f64069946dda0785acb0666b45a?w=500&hash=52F1216A7656D40DDA71B6C5F1FAC2E3",
+      "skinTypes": [
+        "Dry",
+        "Sensitive"
+      ],
+      "description": "Creamy cleanser with ceramides that cleanses without disrupting barrier.",
+      "rating": 5,
+      "badge": "Best Seller",
+      "inStock": true,
+      "goal": "cleanse"
+    },
+    {
+      "id": 24,
+      "name": "PM Facial Moisturizing Lotion",
+      "brand": "CeraVe",
+      "category": "Creams",
+      "price": 1790,
+      "originalPrice": 1790,
+      "image": "https://www.cerave.co.uk/-/media/project/loreal/brand-sites/cerave/emea/uk/products/fml-spf-pm/fml-pm-front-lg-1.jpg?rev=-1?w=500&hash=327AE349E878C324241F21D8F23CB675",
+      "skinTypes": [
+        "All",
+        "Dry"
+      ],
+      "description": "Lightweight night cream with niacinamide and ceramides for overnight repair.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "hydration"
+    },
+    {
+      "id": 25,
+      "name": "Ultra-Light Moisturizing Lotion SPF 30",
+      "brand": "CeraVe",
+      "category": "SPF",
+      "price": 1990,
+      "originalPrice": 1990,
+      "image": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/products/ultra-light-spf30/ultra-light-moisturizing-lotion-30_front.jpg?rev=e9b41ffa891440e2a02978b9cbe87b5a&w=900&hash=4E294CF001FAA4A30DDC7893C8F1615E",
+      "skinTypes": [
+        "All",
+        "Oily"
+      ],
+      "description": "Lightweight sunscreen moisturizer with SPF 30 and ceramides.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "protection"
+    },
+    {
+      "id": 26,
+      "name": "Foaming Facial Cleanser",
+      "brand": "CeraVe",
+      "category": "Cleansers",
+      "price": 1290,
+      "originalPrice": 1290,
+      "image": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/skincare/cleansers/foaming-facial-cleanser/photos/foaming-facial-cleanser_front.jpg?rev=10cd9e2cc8374aa1b2621d87f938c0ed&w=900&hash=9595AD39EE5E93048874004E4272393D",
+      "skinTypes": [
+        "Oily",
+        "Combination"
+      ],
+      "description": "Gentle foaming cleanser that removes oil and dirt while maintaining barrier.",
+      "rating": 5,
+      "badge": "Best Seller",
+      "inStock": true,
+      "goal": "cleanse"
+    },
+    {
+      "id": 27,
+      "name": "Skin Renewing Vitamin C Serum",
+      "brand": "CeraVe",
+      "category": "Serums",
+      "price": 2290,
+      "originalPrice": 2290,
+      "image": "https://www.adorebeauty.com.au/pim_media/000/416/717/CeraVe_Skin_Renewing_Vitamin_C_Serum.png?w=386&h=386&fmt=webp",
+      "skinTypes": [
+        "All"
+      ],
+      "description": "10% pure vitamin C serum with ceramides for brightening and protection.",
+      "rating": 4,
+      "badge": "New",
+      "inStock": true,
+      "goal": "brightening"
+    },
+    {
+      "id": 28,
+      "name": "Resurfacing Retinol Serum",
+      "brand": "CeraVe",
+      "category": "Actives",
+      "price": 2490,
+      "originalPrice": 2490,
+      "image": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/skincare/serums/resurfacing-retinol-serum/retinol/desktop-700x785/retinol-packshot-with-carton-desktop-700x785-v1.jpg?rev=f86170d06b104c3c85818ba712b4140a&w=900&hash=21B1A918C751D662A0023845EA721EB9",
+      "skinTypes": [
+        "All"
+      ],
+      "description": "Encapsulated retinol serum with ceramides and niacinamide for texture.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "antiaging"
+    },
+    {
+      "id": 29,
+      "name": "Hydro Boost Water Gel",
+      "brand": "COSRX",
+      "category": "Creams",
+      "price": 1690,
+      "originalPrice": 1690,
+      "image": "https://www.adorebeauty.com.au/pim_media/000/428/805/COSRX_Hydrium_Greentea_Aqua_Soothing_Gel_Cream.png?w=386&h=386&fmt=webp",
+      "skinTypes": [
+        "All",
+        "Oily"
+      ],
+      "description": "Oil-free gel moisturizer with hyaluronic acid for lightweight hydration.",
+      "rating": 5,
+      "badge": "Best Seller",
+      "inStock": true,
+      "goal": "hydration"
+    },
+    {
+      "id": 30,
+      "name": "Advanced Snail 96 Mucin Power Essence",
+      "brand": "COSRX",
+      "category": "Serums",
+      "price": 2190,
+      "originalPrice": 2190,
+      "image": "https://www.adorebeauty.com.au/pim_media/000/341/073/COSRX003_hero.png?w=386&h=386&fmt=webp",
+      "skinTypes": [
+        "All",
+        "Dry"
+      ],
+      "description": "96.3% snail secretion filtrate essence for repair and hydration.",
+      "rating": 5,
+      "badge": "Best Seller",
+      "inStock": true,
+      "goal": "hydration"
+    },
+    {
+      "id": 31,
+      "name": "Low pH Good Morning Gel Cleanser",
+      "brand": "COSRX",
+      "category": "Cleansers",
+      "price": 1390,
+      "originalPrice": 1390,
+      "image": "https://m.media-amazon.com/images/I/612rSz+NulL._SL1500_.jpg",
+      "skinTypes": [
+        "All",
+        "Sensitive"
+      ],
+      "description": "Gentle gel cleanser with tea tree oil. Low pH to maintain skin barrier.",
+      "rating": 5,
+      "badge": "Best Seller",
+      "inStock": true,
+      "goal": "cleanse"
+    },
+    {
+      "id": 32,
+      "name": "BHA Blackhead Power Liquid",
+      "brand": "COSRX",
+      "category": "Actives",
+      "price": 1890,
+      "originalPrice": 1890,
+      "image": "https://co.nice-cdn.com/upload/image/product/large/default/cosrx-bha-blackhead-power-liquid-100-ml-504068-en.jpg",
+      "skinTypes": [
+        "Oily",
+        "Acne-prone"
+      ],
+      "description": "4% BHA liquid that gently exfoliates and clears blackheads daily.",
+      "rating": 5,
+      "badge": "Best Seller",
+      "inStock": true,
+      "goal": "acne"
+    },
+    {
+      "id": 33,
+      "name": "Propolis Light Ampoule",
+      "brand": "COSRX",
+      "category": "Serums",
+      "price": 2490,
+      "originalPrice": 2490,
+      "image": "https://sokoglam.com/cdn/shop/files/COSRX-Full-Fit-Propolis-Light-Ampoule-Product.jpg?v=1756219187&width=990",
+      "skinTypes": [
+        "All",
+        "Sensitive"
+      ],
+      "description": "83.25% propolis extract ampoule for soothing and glow.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "soothing"
+    },
+    {
+      "id": 34,
+      "name": "Ultimate Nourishing Rice Overnight Spa Mask",
+      "brand": "COSRX",
+      "category": "Masks",
+      "price": 1690,
+      "originalPrice": 1690,
+      "image": "https://m.media-amazon.com/images/I/71lHwTQQzGL._SL1500_.jpg",
+      "skinTypes": [
+        "All",
+        "Dry"
+      ],
+      "description": "Overnight wash-off mask with rice extract for brightening and nourishment.",
+      "rating": 4,
+      "badge": "",
+      "inStock": true,
+      "goal": "brightening"
+    },
+    {
+      "id": 35,
+      "name": "Aloe Soothing Sun Cream SPF50",
+      "brand": "COSRX",
+      "category": "SPF",
+      "price": 1590,
+      "originalPrice": 1590,
+      "image": "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/resize-w:2200/1110905/d-zTOKI0pq-8809598452336_1.jpg",
+      "skinTypes": [
+        "All",
+        "Sensitive"
+      ],
+      "description": "Moisturizing sunscreen with aloe. SPF50+ PA+++ protection.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "protection"
+    },
+    {
+      "id": 36,
+      "name": "Full Fit Propolis Light Ampoule",
+      "brand": "COSRX",
+      "category": "Serums",
+      "price": 2390,
+      "originalPrice": 2390,
+      "image": "https://moidaus.com/cdn/shop/files/400.jpg?v=1704184090&width=1100",
+      "skinTypes": [
+        "Dry",
+        "Sensitive"
+      ],
+      "description": "Concentrated propolis serum for deep nourishment and radiance.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "hydration"
+    },
+    {
+      "id": 37,
+      "name": "2% BHA Liquid Exfoliant",
+      "brand": "Paula's Choice",
+      "category": "Actives",
+      "price": 3290,
+      "originalPrice": 3290,
+      "image": "https://shineskin.mk/wp-content/uploads/2024/07/images-2-800x800.jpeg",
+      "skinTypes": [
+        "Oily",
+        "Combination"
+      ],
+      "description": "Cult-favorite BHA exfoliant that unclogs pores and smooths texture.",
+      "rating": 5,
+      "badge": "Best Seller",
+      "inStock": true,
+      "goal": "acne"
+    },
+    {
+      "id": 38,
+      "name": "Clinical 1% Retinol Treatment",
+      "brand": "Paula's Choice",
+      "category": "Actives",
+      "price": 6990,
+      "originalPrice": 6990,
+      "image": "https://m.media-amazon.com/images/I/314kvDkeWVL._SX342_SY445_QL70_FMwebp_.jpg",
+      "skinTypes": [
+        "All",
+        "Mature"
+      ],
+      "description": "High-strength retinol with peptides for advanced anti-aging.",
+      "rating": 5,
+      "badge": "Premium",
+      "inStock": true,
+      "goal": "antiaging"
+    },
+    {
+      "id": 39,
+      "name": "Omega+ Complex Serum",
+      "brand": "Paula's Choice",
+      "category": "Serums",
+      "price": 4990,
+      "originalPrice": 4990,
+      "image": "https://co.nice-cdn.com/upload/image/product/large/default/paulas-choice-omega-complex-cleansing-balm-103-ml-506119-en.jpg",
+      "skinTypes": [
+        "Dry",
+        "Mature"
+      ],
+      "description": "Nutrient-rich serum with omegas and ceramides for barrier repair.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "antiaging"
+    },
+    {
+      "id": 40,
+      "name": "Defense Antioxidant Pore Purifier",
+      "brand": "Paula's Choice",
+      "category": "Creams",
+      "price": 4290,
+      "originalPrice": 4290,
+      "image": "https://www.sephora.com/productimages/sku/s2828416-main-zoom.jpg?imwidth=48",
+      "skinTypes": [
+        "Oily",
+        "Combination"
+      ],
+      "description": "Lightweight moisturizer with niacinamide and antioxidants for pores.",
+      "rating": 4,
+      "badge": "",
+      "inStock": true,
+      "goal": "acne"
+    },
+    {
+      "id": 41,
+      "name": "Perfect Cleansing Oil",
+      "brand": "Paula's Choice",
+      "category": "Cleansers",
+      "price": 3490,
+      "originalPrice": 3490,
+      "image": "https://m.media-amazon.com/images/I/31F2T2X3oqL._SX342_SY445_QL70_FMwebp_.jpg",
+      "skinTypes": [
+        "All"
+      ],
+      "description": "Gentle oil cleanser that melts away makeup and SPF completely.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "cleanse"
+    },
+    {
+      "id": 42,
+      "name": "Youth-Extending Daily Hydrating Fluid SPF 50",
+      "brand": "Paula's Choice",
+      "category": "SPF",
+      "price": 4990,
+      "originalPrice": 4990,
+      "image": "https://www.dermstore.com/images?url=https://static.thcdn.com/productimg/original/11174232-8325201473060746.jpg&format=webp&auto=avif&width=985&height=985&fit=cover",
+      "skinTypes": [
+        "All"
+      ],
+      "description": "Anti-aging sunscreen with SPF 50 and antioxidants. Lightweight finish.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "protection"
+    },
+    {
+      "id": 43,
+      "name": "10% Niacinamide Booster",
+      "brand": "Paula's Choice",
+      "category": "Serums",
+      "price": 5490,
+      "originalPrice": 5490,
+      "image": "https://beautizshop.com/cdn/shop/products/Untitled_1000x1000px_700x875px_600x775px_800x975px_700x875px_2000x2000px_9.png?v=1667428504&width=1780",
+      "skinTypes": [
+        "Oily",
+        "Combination"
+      ],
+      "description": "Concentrated niacinamide serum for pores, texture and radiance.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "acne"
+    },
+    {
+      "id": 44,
+      "name": "Weekly Resurfacing Treatment 10% AHA",
+      "brand": "Paula's Choice",
+      "category": "Masks",
+      "price": 4790,
+      "originalPrice": 4790,
+      "image": "https://m.media-amazon.com/images/I/31tCAKh953L._SY300_SX300_QL70_FMwebp_.jpg",
+      "skinTypes": [
+        "All"
+      ],
+      "description": "Weekly exfoliating mask with glycolic acid for smooth, glowing skin.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "brightening"
+    },
+    {
+      "id": 45,
+      "name": "Nourishing Oil",
+      "brand": "Paula's Choice",
+      "category": "Oils",
+      "price": 4290,
+      "originalPrice": 4290,
+      "image": "https://i.cgsbe.store/new/EN2557/en255776401210.jpg",
+      "skinTypes": [
+        "Dry",
+        "Mature"
+      ],
+      "description": "Blend of plant oils rich in antioxidants for nourishment and glow.",
+      "rating": 4,
+      "badge": "",
+      "inStock": true,
+      "goal": "antiaging"
+    },
+    {
+      "id": 46,
+      "name": "Marula Oil",
+      "brand": "The Ordinary",
+      "category": "Oils",
+      "price": 1890,
+      "originalPrice": 1890,
+      "image": "https://co.nice-cdn.com/upload/image/product/large/default/paulas-choice-omega-complex-cleansing-balm-103-ml-506119-en.jpg",
+      "skinTypes": [
+        "All",
+        "Dry"
+      ],
+      "description": "100% cold-pressed virgin marula oil for hydration and antioxidant protection.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "hydration"
+    },
+    {
+      "id": 47,
+      "name": "Charcoal Clay Mask",
+      "brand": "The Ordinary",
+      "category": "Masks",
+      "price": 1290,
+      "originalPrice": 1290,
+      "image": "https://m.media-amazon.com/images/I/310q-1JKo8L._SX342_SY445_QL70_FMwebp_.jpg",
+      "skinTypes": [
+        "Oily",
+        "Combination"
+      ],
+      "description": "Detoxifying clay mask with charcoal that draws out impurities.",
+      "rating": 4,
+      "badge": "",
+      "inStock": true,
+      "goal": "cleanse"
+    },
+    {
+      "id": 48,
+      "name": "100% Plant-Derived Squalane",
+      "brand": "The Ordinary",
+      "category": "Oils",
+      "price": 1490,
+      "originalPrice": 1490,
+      "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400&h=400&fit=crop&q=80",
+      "skinTypes": [
+        "All",
+        "Dry"
+      ],
+      "description": "Pure squalane oil for lightweight hydration and barrier support.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "hydration"
+    },
+    {
+      "id": 49,
+      "name": "Hydrating Night Cream",
+      "brand": "CeraVe",
+      "category": "Creams",
+      "price": 2190,
+      "originalPrice": 2190,
+      "image": "https://www.cerave.com/-/media/project/loreal/brand-sites/cerave/americas/us/skincare/2025/skin-renewing-night-cream/700x785/skin-renewing-night-cream-packshot-front-700x785-v1.jpg?rev=e26e5d7b923b47ac98ddd5c1baf07a54&w=900&hash=062FCDFB2DAD099EDB3B8E23214DDE3B",
+      "skinTypes": [
+        "All",
+        "Dry"
+      ],
+      "description": "Rich night cream with ceramides and hyaluronic acid for overnight repair.",
+      "rating": 5,
+      "badge": "",
+      "inStock": true,
+      "goal": "hydration"
+    },
+    {
+      "id": 50,
+      "name": "Hydra Power Essence",
+      "brand": "COSRX",
+      "category": "Serums",
+      "price": 1990,
+      "originalPrice": 1990,
+      "image": "https://www.lookfantastic.com/images?url=https://static.thcdn.com/productimg/original/11401190-9664945376208714.jpg&format=webp&auto=avif&width=985&height=985&fit=cover",
+      "skinTypes": [
+        "Dry",
+        "Dehydrated"
+      ],
+      "description": "Intensive hydrating essence with hyaluronic acid and vitamin B5.",
+      "rating": 4,
+      "badge": "",
+      "inStock": true,
+      "goal": "hydration"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cleansers",
+      "description": "Gel, foam, oil cleansers",
+      "image": "https://images.unsplash.com/photo-1556228852-80a5a1ab7f8c?w=400&h=400&fit=crop&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Serums",
+      "description": "Niacinamide, Vitamin C, HA",
+      "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&h=400&fit=crop&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Actives",
+      "description": "Retinol, AHA, BHA",
+      "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400&h=400&fit=crop&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Creams",
+      "description": "Barrier support moisturizers",
+      "image": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=400&h=400&fit=crop&q=80"
+    },
+    {
+      "id": 5,
+      "name": "SPF",
+      "description": "Daily protection sunscreens",
+      "image": "https://images.unsplash.com/photo-1556228852-80a5a1ab7f8c?w=400&h=400&fit=crop&q=80"
+    },
+    {
+      "id": 6,
+      "name": "Masks",
+      "description": "Exfoliating and hydrating masks",
+      "image": "https://images.unsplash.com/photo-1612817288484-6f916006741a?w=400&h=400&fit=crop&q=80"
+    },
+    {
+      "id": 7,
+      "name": "Oils",
+      "description": "Facial oils for nourishment",
+      "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400&h=400&fit=crop&q=80"
+    }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "name": "The Ordinary",
+      "description": "Clinical formulations with integrity",
+      "logo": "",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "COSRX",
+      "description": "Korean skincare solutions",
+      "logo": "",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "CeraVe",
+      "description": "Dermatologist recommended",
+      "logo": "",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "name": "Paula's Choice",
+      "description": "Research-backed skincare",
+      "logo": "",
+      "featured": true
+    }
+  ],
+  "offers": [
+    {
+      "id": 1,
+      "title": "Hydration Week Special",
+      "discount": 20,
+      "description": "20% off all moisturizers and hyaluronic acid products",
+      "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=600&h=400&fit=crop&q=80",
+      "validUntil": "2025-12-31",
+      "categories": [
+        "Creams",
+        "Serums"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "New Arrivals",
+      "discount": 0,
+      "description": "Fresh drops in serums and SPF",
+      "image": "https://images.unsplash.com/photo-1556228852-80a5a1ab7f8c?w=600&h=400&fit=crop&q=80",
+      "validUntil": "2025-12-31",
+      "categories": [
+        "SPF",
+        "Serums"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Anti-Aging Bundle",
+      "discount": 15,
+      "description": "Save 15% on retinol and peptide products",
+      "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&h=400&fit=crop&q=80",
+      "validUntil": "2025-12-31",
+      "categories": [
+        "Actives",
+        "Serums"
+      ]
+    }
+  ],
+  "notes": [],
+  "cart": [
+    {
+      "productId": 18,
+      "name": "Granactive Retinoid 2% Emulsion",
+      "price": 1890,
+      "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400&h=400&fit=crop&q=80",
+      "quantity": 1,
+      "id": 1
+    },
+    {
+      "productId": 1,
+      "name": "Hyaluronic Acid Serum",
+      "price": 890,
+      "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?w=400&h=400&fit=crop&q=80",
+      "quantity": 1,
+      "id": 2
+    }
+  ],
+  "wishlist": [
+    {
+      "productId": 18,
+      "name": "Granactive Retinoid 2% Emulsion",
+      "price": 1890,
+      "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400&h=400&fit=crop&q=80",
+      "brand": "The Ordinary",
+      "id": 1
+    }
+  ]
+}

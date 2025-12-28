@@ -1,0 +1,7 @@
+export interface Note {
+  id?: number;
+  title: string;
+  body: string;
+  tag: string;
+  date: string;
+}
